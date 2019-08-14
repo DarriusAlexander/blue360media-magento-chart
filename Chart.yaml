@@ -15,7 +15,7 @@ keywords:
 maintainers:
 - email: darrius@blue360media.com
   name: Blue360media.com
-name: magento blue360media.com
+name: magento-blue360media.com
 sources:
 - https://github.com/DarriusAlexander/blue360media-docker
 version: latest
