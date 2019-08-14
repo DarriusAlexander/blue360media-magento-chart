@@ -13,9 +13,9 @@ keywords:
 - web
 - php
 maintainers:
-- email: containers@bitnami.com
-  name: Bitnami
-name: magento
+- email: darrius@blue360media.com
+  name: Blue360media.com
+name: magento blue360media.com
 sources:
-- https://github.com/bitnami/bitnami-docker-magento
-version: 8.0.0
+- https://github.com/DarriusAlexander/blue360media-docker
+version: latest

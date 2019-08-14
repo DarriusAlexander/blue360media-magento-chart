@@ -42,12 +42,12 @@ image:
 ## Magento host to create application URLs
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
- magentoHost:
+ magentoHost: 35.226.227.195
 
 ## loadBalancerIP for the Magento Service (optional, cloud specific)
 ## ref: http://kubernetes.io/docs/user-guide/services/#type-loadbalancer
 ##
-# magentoLoadBalancerIP:
+ magentoLoadBalancerIP: 35.226.227.195:80
 
 ## User of the application
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
@@ -58,12 +58,12 @@ magentoUsername: user
 ## Defaults to a random 10-character alphanumeric string if not set
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
-# magentoPassword:
+ magentoPassword: oHCdMA6yp4
 
 ## Admin email
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
-magentoEmail: admin@blue360media.com
+magentoEmail: admin@example.com
 
 ## Prefix for Magento Admin
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
@@ -73,12 +73,12 @@ magentoAdminUri: admin
 ## First Name
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
-magentoFirstName: FirstName
+magentoFirstName: Firstname
 
 ## Last Name
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
-magentoLastName: LastName
+magentoLastName: Lastname
 
 ## Mode
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
@@ -94,7 +94,7 @@ allowEmptyPassword: "yes"
 ##
 externalDatabase:
   ## Database host
-  host: 10.125.11.228
+  host: exciting-bunny-mariadb
 
   ## Database port
   port: 3306
@@ -103,7 +103,7 @@ externalDatabase:
   user: bn_magento
 
   ## Database password
-  password:
+  password: mariadb-password
 
   ## Database name
   database: bitnami_magento

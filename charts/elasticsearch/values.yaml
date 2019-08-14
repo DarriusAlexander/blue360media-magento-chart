@@ -73,7 +73,7 @@ volumePermissions:
 
 ## Elasticsearch cluster name
 ##
-name: elastic
+name: elasticsearch
 
 ## Comma, semi-colon or space separated list of plugins to install at initialization
 ## ref: https://github.com/bitnami/bitnami-docker-elasticsearch#environment-variables
@@ -98,7 +98,7 @@ master:
     ## master-eligible service type
     type: ClusterIP
     ## Elasticsearch transport port
-    port: 9300
+    port: 9200
     ## Specify the nodePort value for the LoadBalancer and NodePort service types.
     ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
     ##
@@ -289,7 +289,7 @@ ingest:
     ## ingest service type
     type: ClusterIP
     ## Elasticsearch transport port
-    port: 9300
+    port: 9200
     ## Specify the nodePort value for the LoadBalancer and NodePort service types.
     ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
     ##

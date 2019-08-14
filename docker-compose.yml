@@ -5,7 +5,7 @@ services:
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
       - MARIADB_USER=bn_magento
-      - MARIADB_PASSWORD=magento_db_password
+      - MARIADB_PASSWORD=mariadb-password
       - MARIADB_DATABASE=bitnami_magento
     volumes:
       - 'mariadb_data:/bitnami'
