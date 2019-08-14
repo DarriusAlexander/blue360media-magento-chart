@@ -335,7 +335,7 @@ slave:
     ## If true, use a Persistent Volume Claim, If false, use emptyDir
     ##
     enabled: true
-    # storageClass: "-"
+     storageClass: "-"
     annotations:
     accessModes:
     - ReadWriteOnce

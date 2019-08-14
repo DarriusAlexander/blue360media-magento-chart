@@ -12,7 +12,7 @@ services:
   magento:
     image: 'bitnami/magento:2'
     environment:
-      - MARIADB_HOST=mariadb
+      - MARIADB_HOST=10.125.11.2
       - MARIADB_PORT_NUMBER=3306
       - MAGENTO_DATABASE_USER=bn_magento
       - MAGENTO_DATABASE_PASSWORD=magento_db_password
